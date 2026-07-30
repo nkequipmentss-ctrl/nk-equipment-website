@@ -36,6 +36,38 @@ export const Route = createRootRoute({
         name: 'theme-color',
         content: '#090b0a',
       },
+      {
+  property: 'og:type',
+  content: 'website',
+},
+{
+  property: 'og:url',
+  content: 'https://nkequipments.com/',
+},
+{
+  property: 'og:image',
+  content: 'https://nkequipments.com/og-image.jpg',
+},
+{
+  property: 'og:site_name',
+  content: 'NK Equipments Solution',
+},
+{
+  name: 'twitter:card',
+  content: 'summary_large_image',
+},
+{
+  name: 'twitter:title',
+  content: 'NK Equipments Solution',
+},
+{
+  name: 'twitter:description',
+  content: 'Trusted Importer of Premium Used Heavy Machinery',
+},
+{
+  name: 'twitter:image',
+  content: 'https://nkequipments.com/og-image.jpg',
+},
     ],
   }),
   shellComponent: RootDocument,
